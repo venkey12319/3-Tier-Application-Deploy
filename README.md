@@ -35,7 +35,7 @@ Application security group:
 
 ![image](https://github.com/venkey12319/3-Tier-Application-Deploy/assets/167093427/61937e1e-5e57-4be0-ad8b-7b913ba27878)
 
-Step 3: Install the webserver in the FE instance
+**Step 3: Install the webserver in the FE instance**
 
 log in to Mobaxterm with the public IP address of that instance.
 
@@ -57,7 +57,7 @@ Copy the pem file from your local server and save it
 
 chmod 400 venkat_key.pem (To give permissions)
 
-Step 5: Connect to the DB instance and install the MYSQL server
+**Step 5: Connect to the DB instance and install the MYSQL server**
 
 ssh -i venkat_key.pem ubuntu@10.0.06 (i provided ec2 instance private iD)
 
@@ -92,6 +92,8 @@ INSERT INTO table1 VALUES(1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
 SELECT * FROM table1;
 
 creation of MySQL server is successful. 
+
+
 
 
 
