@@ -1,19 +1,20 @@
 # 3-Tier-Application-Deploy 
 3-TIER ARCHITECTURE IMPLEMENTATION ON EC2 Instance.
 Pre-Requertires:
-Vpc Name:	3-Tier-Arc-Vpc
-Subnet Name:	3-Tier-Arc-Sub-Pvt
-Subnet Name:	3-Tier-Arc-Sub-Pub
-Instance 1 Name:	3-Tier-Arc-Ec2-Pub-App
-Instance 2 Name:	3-Tier-Arc-Ec2-Pvt-DB
-Instance 3 Name:	3-Tier-Arc-Ec2-Pvt-Front END
-Route Table 1 Name:	3-Tier-Arc-Rt-Pub
-Route Table 2 Name:	3-Tier-Arc-Rt-Pvt
-Interner Gateway Name:	3-Tier-Arc-Igw
-Security Group 1 Pub:	3-Tier-Arc-Sg-FE
-Security Group 2 Db:	3-Tier-Arc-Sg-DB
-Security Group 3 App:	3-Tier-Arc-Sg-App
-Nat Gateway Name:	3-Tier-Arc-NAT
+
+1) Vpc Name:  3-Tier-Arc-Vpc
+2) Subnet Name: 3-Tier-Arc-Sub-Pvt
+3) Subnet Name: 3-Tier-Arc-Sub-Pub
+4) Instance 1 Name: 3-Tier-Arc-Ec2-Pub-App
+5) Instance 2 Name: 3-Tier-Arc-Ec2-Pvt-DB
+6) Instance 3 Name: 3-Tier-Arc-Ec2-Pvt-Front End
+7) Route Table 1 Name: 3-Tier-Arc-Rt-Pub
+8) Route Table 2 Name: 3-Tier-Arc-Rt-Pvt
+9) Internet Gateway Name: 3-Tier-Arc-Igw
+10) Security Group 1 Pub: 3-Tier-Arc-Sg-FE
+11) Security Group 2 Db: 3-Tier-Arc-Sg-DB
+12) Security Group 3 App: 3-Tier-Arc-Sg-App
+13) Nat Gateway Name: 3-Tier-Arc-NAT
 
 Here is my VPC resource Map
 
