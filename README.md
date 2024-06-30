@@ -4,8 +4,8 @@
 Pre-Requertires:
 
 1) Vpc Name:  3-Tier-Arc-Vpc
-2) Subnet Name: 3-Tier-Arc-Sub-Pvt
-3) Subnet Name: 3-Tier-Arc-Sub-Pub
+2) Subnet 1 Name: 3-Tier-Arc-Sub-Pvt
+3) Subnet 2 Name: 3-Tier-Arc-Sub-Pub
 4) Instance 1 Name: 3-Tier-Arc-Ec2-Pub-App
 5) Instance 2 Name: 3-Tier-Arc-Ec2-Pvt-DB
 6) Instance 3 Name: 3-Tier-Arc-Ec2-Pvt-Front End
